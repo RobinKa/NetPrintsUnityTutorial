@@ -18,7 +18,7 @@ This is an example of how to use [NetPrints](https://github.com/RobinKa/NetPrint
 ![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/MethodStart.png)
 
 6. Implement the `FixedUpdate()` method.
-![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/MethodUpdate.png)
+![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/MethodFixedUpdate.png)
 
 7. Press compile. This will generate a source code file with the name  `<Namespace.Class>.cs`. Since Unity only recognizes classes with the same name as its filename, the generated file will need to have the namespace part removed. The script can now be dragged onto our sphere like any other C# script. The sphere should now move when we press WASD.
 ![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/Unity.png)
