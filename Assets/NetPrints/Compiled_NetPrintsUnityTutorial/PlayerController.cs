@@ -4,6 +4,28 @@ namespace NetPrintsUnityTutorial
                 {
                     public System.Single speed;
 UnityEngine.Rigidbody rb;
+void Start()
+{
+System.Exception varException;
+UnityEngine.Rigidbody varT;
+UnityEngine.Rigidbody varRigidbody;
+
+goto State0;
+
+State0:
+varT = this.GetComponent<UnityEngine.Rigidbody>();
+goto State1;
+
+State1:
+this.rb = varT;
+varRigidbody = varT;
+goto State2;
+
+State2:
+return;
+
+}
+
 void FixedUpdate()
 {
 System.Exception varException;
@@ -46,40 +68,6 @@ varRigidbody.AddForce(varVector32);
 goto State5;
 
 State5:
-return;
-
-}
-
-void Start()
-{
-System.Exception varException;
-UnityEngine.Component varComponent;
-UnityEngine.Rigidbody varCastObject;
-UnityEngine.Rigidbody varRigidbody;
-System.Type varType;
-
-goto State0;
-
-State0:
-varType = typeof(UnityEngine.Rigidbody);
-varComponent = this.GetComponent(varType);
-goto State1;
-
-State1:
-if (varComponent is UnityEngine.Rigidbody)
-{
-varCastObject = (UnityEngine.Rigidbody)varComponent;
-goto State2;
-}
-else
-return;
-
-State2:
-this.rb = varCastObject;
-varRigidbody = varCastObject;
-goto State3;
-
-State3:
 return;
 
 }

@@ -10,11 +10,11 @@ This is an example of how to use [NetPrints](https://github.com/RobinKa/NetPrint
 
 ![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/Assemblies.png)
 
-3. Unity can use either our generated .NET binary or C# source code. The source code has the advantage that we can debug our generated code. Furthermore there are some bugs in Unity with generated .NET binaries and MonoBehaviour inheritance. Set the output mode to `SourceCode` which will output only the source code. Then press `New Class` which will add a new empty class to our project. You can open it by clicking on it. In the class settings it is possible to change the class name, its namespace and some other interesting properties. Set the base class to `UnityEngine.MonoBehaviour`.
+3. Unity can use either our generated .NET binary or C# source code. The source code has the advantage that we can debug our generated code. Furthermore there are some bugs in Unity with generated .NET binaries and `MonoBehaviour` inheritance. Set the output mode to `SourceCode` which will output only the source code. Then press `New Class` which will add a new empty class to our project. You can open it by clicking on it. In the class settings it is possible to change the class name, its namespace and some other interesting properties. Set the base class to `UnityEngine.MonoBehaviour`.
 
 ![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/MainMenu.png)
 
-4. Add the `Update()` and `Start()` methods. Also create the `rb` (type `UnityEngine.Rigidbody`) and `speed` (type `System.Single`, which is the same as `float`). Mark the `speed` attribute as public by clicking on it and checking the `Public` checkbox on the right side of the editor.
+4. Add the `FixedUpdate()` and `Start()` methods. Also create the `rb` (type `UnityEngine.Rigidbody`) and `speed` (type `System.Single`, which is the same as `float`). Mark the `speed` attribute as public by clicking on it and checking the `Public` checkbox on the right side of the editor.
 
 ![](https://raw.githubusercontent.com/RobinKa/NetPrintsUnityTutorial/master/Screenshots/MethodsAttributes.png)
 
