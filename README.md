@@ -2,7 +2,7 @@
 This is an example of how to use [NetPrints](https://github.com/RobinKa/NetPrints) inside Unity3D for visual programming. It replicates part of the [roll-a-ball tutorial](https://unity3d.com/learn/tutorials/projects/roll-ball-tutorial/moving-player) where we make a ball roll with user input. For further information on how the example works please visit the link. The completed project is contained in this repository.
 
 ## Note
-Requires version [0.0.2-update1](https://github.com/RobinKa/netprints/releases/tag/0.0.2-update1) of NetPrints. Update to new version will follow soon.
+Requires version [0.0.3](https://github.com/RobinKa/netprints/releases/tag/0.0.3) of NetPrints.
 
 # Steps
 1. Create a new project within your unity project. Create a plane for the floor and a sphere. Add a `Rigidbody` to the sphere. The exact path does not matter. Unity will automatically find the generated scripts.
